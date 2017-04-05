@@ -47,15 +47,6 @@
 	font-size: 14px;
 }
 
-/*Counter===============*/
-.counter-inner{
-	margin-bottom: 60px;
-}
-.counter-box{
-	margin-bottom: 50px;
-}
-
-
 /*subscribe======================*/
 #section-subscribe {
     
@@ -77,37 +68,6 @@
 
 .nav-tabs > li.col-md-4{
     padding: 0px;
-}
-
-
-/*Pricing==========================*/
-.pricing-box{
-	margin-bottom: 20px;
-}
-
-/*Team==============================*/
-.team-box{
-	margin-bottom: 30px;
-}
-
-/*blog========================*/
-.blog-top-desc {
-    margin-bottom: 20px;
-}
-.blog-date{
-	width: 65px;
-	height: 65px;
-}
-.blog-top-desc h4 {
-    line-height: 25px;
-}
-.footer-socail {
-    text-align: center;
-    margin-top: 10px;
-}
-
-.copy{
-	text-align: center;
 }
 
 
@@ -157,54 +117,11 @@
 	height: 800px;
 }
 
-/*Counter===============*/
-.counter-inner{
-	margin-bottom: 60px;
-	text-align: center;
-}
-.counter-box{
-	margin-bottom: 50px;
-}
-#installation-tab a img{
-    width: 100%;
-    height: 180px;
-}
-
 /*subscribe======================*/
 #section-subscribe {
     padding: 60px 20px;
 }
 
-/*Pricing==========================*/
-.pricing-box{
-	margin-bottom: 20px;
-}
-
-/*Team==============================*/
-.team-box{
-	margin-bottom: 30px;
-}
-
-/*testimonial==================*/
-#testimonial-carousel .carousel-indicators {
-    top: 65%;
-}
-#testimonial-carousel .carousel-indicators li {
-    width: 40px;
-    height: 40px;
-}
-#testimonial-carousel .carousel-indicators {
-	margin-top: 125px;
-}
-
-.client-carousel {
-    margin-top: 100px;
-}
-
-/*Blog==============================================*/
-.blog-box{
-	margin-bottom: 30px;
-}
 /*Contact========================================*/
 .contact-info{
 	margin-bottom: 30px;
@@ -274,49 +191,11 @@
 	height: 800px;
 }
 
-/*Counter===============*/
-.counter-inner{
-	margin-bottom: 60px;
-	text-align: center;
-}
-.counter-box{
-	margin-bottom: 50px;
-}
-
-
 /*subscribe======================*/
 #section-subscribe {
     padding: 60px 20px;
 }
 
-/*Pricing==========================*/
-.pricing-box{
-	margin-bottom: 20px;
-}
-
-/*Team==============================*/
-.team-box{
-	margin-bottom: 30px;
-}
-
-/*testimonial==================*/
-#testimonial-carousel .carousel-indicators {
-    top: 65%;
-}
-#testimonial-carousel .carousel-indicators li {
-    width: 40px;
-    height: 40px;
-}
-#testimonial-carousel .carousel-indicators {
-	margin-top: 125px;
-}
-
-
-
-/*Blog==============================================*/
-.blog-box{
-	margin-bottom: 30px;
-}
 /*Contact========================================*/
 .contact-info{
 	margin-bottom: 30px;
