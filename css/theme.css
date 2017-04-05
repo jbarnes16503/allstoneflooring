@@ -14,7 +14,7 @@
 3.  Common styles
 4.  Header area
 5.  Slideshow
-6.  SECTION ABOUT
+6.  SECTION CLEANING AND RESTORATION
 7.  SECTION COUNTER
 8.  SECTION PORTFOLIO
 9.  SECTION SUBSCRIBE
@@ -488,33 +488,33 @@ h6 {
 }
 
 /*============================================
-    ABOUT SECTION
+    CLEANING AND RESTORATION SECTION
 ===============================================*/
-#section-about{}
+#section-cleaning-and-restoration{}
 
-.about-wrap{
+.cleaning-and-restoration-wrap{
     padding-left: 20px;
 }
-.about-box{
+.cleaning-and-restoration-box{
     margin-top: 30px;
 }
-.about-box i{
+.cleaning-and-restoration-box i{
     font-size: 50px;
     color: #666;
     margin-bottom: 15px;
 }
-#about-carousel .carousel-indicators{
+#cleaning-and-restoration-carousel .carousel-indicators{
     left: 103%;
     margin-left: 0px;
     float: right;
     bottom: 0px;
 }
-#about-carousel .carousel-indicators li{
+#cleaning-and-restoration-carousel .carousel-indicators li{
     display: block;
     border-color: #555;
     margin-bottom: 5px;
  }
-#about-carousel .carousel-indicators .active {
+#cleaning-and-restoration-carousel .carousel-indicators .active {
     width: 12px;
     height: 12px;
     margin: 0px;

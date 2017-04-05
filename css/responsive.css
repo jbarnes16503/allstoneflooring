@@ -42,8 +42,8 @@
 	height: 800px;
 }
 
-/*about ====================*/
-.about-box h4{
+/*Cleaning and restoration ====================*/
+.cleaning-and-restoration-box h4{
 	font-size: 14px;
 }
 
@@ -126,7 +126,7 @@
     padding: 8px 16px;
  }
 
- .about-wrap {
+ .cleaning-and-restoration-wrap {
     margin-top: 30px;
 }
 
@@ -243,7 +243,7 @@
  }
 
 
- .about-wrap {
+ .cleaning-and-restoration-wrap {
     margin-top: 30px;
 }
 
