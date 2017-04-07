@@ -591,8 +591,7 @@ h6 {
 =====================================================*/
 #section-subscribe{
     padding: 60px 0px;
-    background: #FAFAFA;
-    background: url(../images/bg/bg-sub.jpg) 50% 50%;
+    background: #dddddd;
     padding: 50px 0px;
     -webkit-background-size: cover;
     background-size: cover;
