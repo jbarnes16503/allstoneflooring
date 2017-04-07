@@ -34,7 +34,7 @@ if (empty($_POST["message"])) {
 
 //Put Your respective Email at $EmailTO 
 
-$EmailTo = "operations@allstoneflooring.co.uk";
+$EmailTo = "contact@allstoneflooring.co.uk";
 $Subject = "All Stone Flooring - New query recieved";
 
 // prepare email body text
