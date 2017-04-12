@@ -51,12 +51,15 @@ $Body .= "Subject: ";
 $Body .= $subject;
 $Body .= "\n";
 
-$Body .= "Message: ";
+$Body .= "\n" ."\n";
 $Body .= $message;
 $Body .= "\n";
 
 // send email
 $success = mail($EmailTo, $Subject, $Body, "From:".$email);
+// send thank you email
+$response .= 'Thank you ' .$name ."\n" ."\n" .'We have recieved your enquiry. A copy has been printed below:' ."\n" ."\n" ."\n" ."\n" .$message ."\n" ."\n" ."\n" ."\n" .'Please allow us up to 24 hours to respond to your query.' ."\n" ."\n" ."\n" .'The All Stone Flooring team';
+mail($email, "Your query has been recieved", $response, "From:".$EmailTo);
 
 // redirect to success page
 if ($success && $errorMSG == ""){
