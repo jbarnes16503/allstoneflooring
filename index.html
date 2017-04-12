@@ -157,9 +157,9 @@
                     </div>
                 </div>
                 <div class="col-md-7 wow fadeInUp">
-                    <form class="subscribe-form">
-                        <input type="text" placeholder="Email Address" class="form-control">
-                        <a href="#" class="btn btn-primary black ">Submit</a>
+                    <form id="subscribe-form" class="subscribe-form" action="../php/subscribe.php" method="post">
+                        <input type="email" id="subscribe-email" name="subscribe-email" placeholder="Email Address" class="form-control">
+                        <button class="btn btn-primary feature " id="form-submit" type="submit" value="Submit">Submit</button>
                     </form>
                 </div>
             </div> <!-- row end -->
@@ -265,6 +265,7 @@
      <!-- form validation -->
     <script type="text/javascript" src="js/validator.min.js"></script>
     <script type="text/javascript" src="js/form-scripts.js"></script>
+    <script type="text/javascript" src="js/subscribe-script.js"></script>
     <!-- Html5 shiv -->
     <script type="text/javascript" src="js/html5shiv.js"></script>
      <!-- Flex slider js -->
