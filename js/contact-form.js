@@ -15,6 +15,6 @@ function submitContactForm() {
 }
 
 function updateContactMessage() {
-    var paragraph = $( "#contact-message" );
+    var paragraph = $( "#contact-success-message" );
     paragraph.text('Thank you. Your query has been sent successfully.');
 }
