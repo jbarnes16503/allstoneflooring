@@ -587,7 +587,7 @@ h6 {
 }
 
 /*=================================================
-    SECTION SUBSCRIBE section
+    SECTION SUBSCRIBE
 =====================================================*/
 #section-subscribe{
     padding: 60px 0px;
@@ -618,6 +618,10 @@ h6 {
 
 #quick-contact-phone-field {
     margin-top: 15px;
+}
+
+#quick-contact-message {
+    font-weight: bold;
 }
 
 /*=====================================================
