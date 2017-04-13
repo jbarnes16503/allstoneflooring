@@ -1,6 +1,7 @@
 $('#contactForm').submit(function(ev) {
     ev.preventDefault();
     submitContactForm();
+    updateContactMessage();
 });
 
 function submitContactForm() {
@@ -11,4 +12,9 @@ function submitContactForm() {
     
     $.post( "php/contact-form.php", { name: contactName, email: contactEmail, subject: contactSubject, message: contactMessage } );
     $('#contactForm')[0].reset();
+}
+
+function updateContactMessage() {
+    var paragraph = $( "#contact-message" );
+    paragraph.text('Thank you. Your query has been sent successfully.');
 }
