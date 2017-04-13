@@ -152,14 +152,25 @@
             <div class="row">
                 <div class="col-md-5 wow fadeInUp">
                     <div class="subscribe-inner text-right">
-                        <h2 class="section-title">Quick contact</h2>
-                        <p>Send us your email address and we will get in touch.</p>
+                        <h2 class="section-title">Request a call back</h2>
+                        <p>Send us your telephone number and we will call you back.</p>
                     </div>
                 </div>
                 <div class="col-md-7 wow fadeInUp">
-                    <form id="subscribe-form" class="subscribe-form" action="../php/subscribe.php" method="post">
-                        <input type="email" id="subscribe-email" name="subscribe-email" placeholder="Email Address" class="form-control">
-                        <button class="btn btn-primary feature " id="form-submit" type="submit" value="Submit">Submit</button>
+                    <form id="quick-contact" class="subscribe-form" action="../php/quick-contact.php" method="post"> 
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <input type="text" id="quick-contact-name-field" placeholder="Name" class="form-control">
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <input type="text" id="quick-contact-phone-field" placeholder="Telephone number" class="form-control">
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <button class="btn btn-primary feature " id="form-submit" type="submit" value="Submit">Send</button>
+                        </div>
                     </form>
                 </div>
             </div> <!-- row end -->
@@ -197,25 +208,25 @@
                     </div>
                 </div> <!-- col end -->
                 <div class="col-md-8 col-sm-8 wow fadeInRight">
-                    <form id="contactForm" action="../php/form.php" method="post">
+                    <form id="contactForm" action="../php/contact-form.php" method="post">
 							<div class="col-md-6">
 								<div class="form-group">
-									<input type="text" id="name" name="name" class="form-control" placeholder="Name *" required data-error="type your name">
+									<input type="text" id="contact-name" class="form-control" placeholder="Name *" required data-error="type your name">
 								</div>
 							</div>
 							<div class="col-md-6">
 								<div class="form-group">
-									<input type="email" name="email" id="email" class="form-control" placeholder="Email *" required data-error="type your email">
+									<input type="email" id="contact-email" class="form-control" placeholder="Email *" required data-error="type your email">
 								</div>
 							</div>	
 							<div class="col-md-12">
 								<div class="form-group">
-									<input type="text" name="subject" id="subject" class="form-control" placeholder="Subject *" required data-error="type your Subject">
+									<input type="text" id="contact-subject" class="form-control" placeholder="Subject *" required data-error="type your Subject">
 								</div>
 							</div>
 							<div class="col-md-12">
 								<div class="form-group">
-									<textarea id="message" name="message" cols="30" rows="6" class="textarea-block form-control" placeholder="Message*" required data-error="type your message"></textarea>
+									<textarea id="contact-message" cols="30" rows="6" class="textarea-block form-control" placeholder="Message*" required data-error="type your message"></textarea>
 								</div>
 							</div>
 							<div class="col-md-12"> 
@@ -263,9 +274,8 @@
     <!-- Respond js -->
     <script type="text/javascript" src="js/respond.js"></script>
      <!-- form validation -->
-    <script type="text/javascript" src="js/validator.min.js"></script>
-    <script type="text/javascript" src="js/form-scripts.js"></script>
-    <script type="text/javascript" src="js/subscribe-script.js"></script>
+    <script type="text/javascript" src="js/contact-form.js"></script>
+    <script type="text/javascript" src="js/quick-contact.js"></script>
     <!-- Html5 shiv -->
     <script type="text/javascript" src="js/html5shiv.js"></script>
      <!-- Flex slider js -->
