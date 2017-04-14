@@ -39,7 +39,7 @@
     top: 20%;
 }
 .flexslider .slides img{
-	height: 800px;
+	height: auto;
 }
 
 /*Cleaning and restoration ====================*/
@@ -114,7 +114,7 @@
 	line-height: 26px;
 }
 .flexslider .slides img{
-	height: 800px;
+	height: auto;
 }
 
 /*subscribe======================*/
@@ -188,7 +188,7 @@
 	line-height: 26px;
 }
 .flexslider .slides img{
-	height: 800px;
+	height: auto;
 }
 
 /*subscribe======================*/
