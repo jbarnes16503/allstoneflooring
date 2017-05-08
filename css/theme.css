@@ -344,6 +344,10 @@ h6 {
   background-size: 100px 82px;
 }
 
+#brand-image {
+    height: inherit;
+}
+
 .navbar-custom .navbar-brand {
     font-weight: 700;
 }
