@@ -54,7 +54,7 @@
                     <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">
-                    <img id="brand-image" src="images/logo/all-stone-white.png">
+                    <img id="brand-image" src="images/logo/all-stone-black.png">
                 </a>
             </div>
 
@@ -295,6 +295,15 @@
 
     <script>
         new WOW().init();
+        
+        if($(window).width() >= 768) {
+                $("#brand-image").attr("src","images/logo/all-stone-white.png");
+             }
+        
+        owl.data('owlCarousel').reinit({
+            touchDrag  : false,
+            mouseDrag  : false
+        });
     </script>
 </body>
 

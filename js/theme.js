@@ -7,10 +7,16 @@ jQuery(function($) {
   $(window).scroll(function() {
       if ($(".navbar").offset().top > 50) {
           $(".navbar-fixed-top").addClass("top-nav-collapse");
-          $("#brand-image").attr("src","images/logo/all-stone-black.png");
+          
+          if($(window).width() >= 768) {
+                $("#brand-image").attr("src","images/logo/all-stone-black.png");
+             }
       } else {
           $(".navbar-fixed-top").removeClass("top-nav-collapse");
-          $("#brand-image").attr("src","images/logo/all-stone-white.png");
+          
+          if($(window).width() >= 768) {
+                $("#brand-image").attr("src","images/logo/all-stone-white.png");
+          }
       }
   });
 });
